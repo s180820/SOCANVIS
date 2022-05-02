@@ -8,7 +8,9 @@ const FeatureList = [
     Svg: require('@site/static/img/imgs/1200px-USA_Flag_Map.svg').default,
     description: (
       <>
-        The project was create to give people an oppertuninity to explore for them selves how accumulated Fastfood restaurents affect our health with base in the United States
+        The aim of this project is to explore how our options of eating and in our surroundings might affect our health. 
+        Are people in areas with a higher density of fastfood restaurents more prone to shortcomings in health? 
+        Likewise how does income affect our choices and health?
       </>
     ),
   },
@@ -17,16 +19,16 @@ const FeatureList = [
     Svg: require('@site/static/img/imgs/goal3.svg').default,
     description: (
       <>
-        In line with this years goals of the <i>Technical University of Denmark's GreenChallenge</i>
+      This project adheres primarily to the 3rd sustainable development goal provided by the United Nations. 
       </>
     ),
   },
   {
-    title: 'Focus on food',
+    title: 'Why food and health? ',
     Svg: require('@site/static/img/imgs/food.svg').default,
     description: (
       <>
-        Food is a basic need for all humans as the bottom row of Marslows hierarychy of needs. Yet we cut corners and make suboptimal choices.
+       The bottom of Marslows hierarychy of needs is food. It is a vitle piece of life. Yet sometimes we as humans makes decision that does not always seem beneficial  
       </>
     ),
   },

@@ -47,7 +47,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Story line',
           },
           {
             href: 'https://github.com/s180820/SOCANVIS',
