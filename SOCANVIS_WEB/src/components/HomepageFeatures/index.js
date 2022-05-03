@@ -28,7 +28,7 @@ const FeatureList = [
     Svg: require('@site/static/img/imgs/food.svg').default,
     description: (
       <>
-       The bottom of Marslows hierarychy of needs is food. It is a vitle piece of life. Yet sometimes we as humans makes decision that does not always seem beneficial  
+       The bottom of Marslows hierarychy of needs is food. It is a vitle piece of life. Yet sometimes we as humans makes decision that does not always seem beneficial sadad  
       </>
     ),
   },

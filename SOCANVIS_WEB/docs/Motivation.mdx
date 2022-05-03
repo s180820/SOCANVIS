@@ -1,0 +1,80 @@
+---
+sidebar_position: 1
+id: intro
+---
+# Motivation
+___ 
+One onf the problems of some modern welfare states is a tendency of obesity[1].
+
+The following investigates potential factors in determining obesity in the United States of America, these factors are: **Income, exposure to fastfood restaurants, physical health, mental health, gender(?) and education(?).
+**
+
+The trend seems that the Americans every year spend more money on take-away  excluding 2020, however that year was also extraordinary in regards to lockdown caused by COVID-19.
+
+However almos the same percentage of the american income is spend on take-away, where the percentage spend on homemade food is decreasing [2].
+
+This could perhabs be caused by parts of the world, USA including, evolving to have more performance fixated mindsets where stress is more common. Since stress can be linked to obesityand today obesity can be considered an epidemy in USA [3].
+
+The following investigation will start by investigating potential factors which could affect obesity in different states or conties in USA, with the purpose of fitting a model to predict chances of obesity in regards to different features. 
+
+## The dataset 
+
+The dataset is from 2019 and consists of the following: 
+
+**[Adult obesity percentage](https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/health-behaviors/diet-exercise/adult-obesity)** [%]<br />
+Percentage BMI > $30\frac{kg}{m²}$ of the county which is considered obese  
+:::note
+
+Obesity is defined in regards to BMI: Body Mass Index, which is not the optimal way to measure a persons health, as BMI measures a persons density in regards to height, which means if you are heavy of other reasons, e.g. having large muscels, this might also classify a person as obese.
+
+:::
+
+
+
+**Income()**  [$] <br />
+Mean household income
+
+ **Exposure to fastfood restaurants()**  [#] <br />
+ Number of restaurants in the county 
+
+ **[Premature deaths](https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-outcomes/length-of-life/premature-death-ypll)**   [years/100 000 population] <br />
+ Years of potential life lost per 100 000 population
+
+ **[Adult smokers](https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/health-behaviors/tobacco-use/adult-smoking)**  [%] <br />
+ Percantage of adult smokers in the county
+
+ **[Excessive drinking](https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/health-behaviors/alcohol-drug-use/excessive-drinking)**  [%] <br />
+ Percentage of adults reporting heavy or binge drinking in the respective county.
+
+**[Uninsured](https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/clinical-care/access-to-care/uninsured)**  [%] <br />
+ Percentage of uninsured adults in the respective county.
+
+**[Unemployed](https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/social-and-economic-factors/employment/unemployment)** [%]  <br />
+Percentage of unemployed adults in the respective county.
+**[Food environment index](https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-factors/health-behaviors/diet-exercise/food-environment-index)** []  <br />
+Accesability to healthy foods, a score from 0 (worst) to 10 (best).
+**[Poor mental health](https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-outcomes/quality-of-life/poor-mental-health-days)** [days] <br />
+Number of days with poor mental health in the last 30 days
+**[Poor physical health](https://www.countyhealthrankings.org/explore-health-rankings/measures-data-sources/county-health-rankings-model/health-outcomes/quality-of-life/poor-physical-health-days)** <br />
+Number of days with poor physical health in the last 30 days
+
+
+
+
+[4], [5].
+
+
+
+
+
+
+
+:::tip Find our sources here: 
+
+[1] https://www.sciencedirect.com/science/article/pii/S1570677X10000663?via%3Dihub#bib0255 <br />
+[2] https://www.ers.usda.gov/data-products/ag-and-food-statistics-charting-the-essentials/food-prices-and-spending/ <br />
+[3] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4214609/ <br />
+[4] Link to kaggle with health data <br />
+[5] Link to income data
+
+:::
