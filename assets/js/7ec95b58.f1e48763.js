@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksocanvis_web=self.webpackChunksocanvis_web||[]).push([[732],{812:function(s){s.exports=JSON.parse('{"permalink":"/SOCANVIS/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

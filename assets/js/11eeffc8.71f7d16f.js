@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksocanvis_web=self.webpackChunksocanvis_web||[]).push([[727],{469:function(s){s.exports=JSON.parse('{"allTagsPath":"/SOCANVIS/blog/tags","name":"docusaurus","count":4,"permalink":"/SOCANVIS/blog/tags/docusaurus"}')}}]);

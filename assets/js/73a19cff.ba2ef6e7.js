@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksocanvis_web=self.webpackChunksocanvis_web||[]).push([[401],{1986:function(a){a.exports=JSON.parse('{"allTagsPath":"/SOCANVIS/blog/tags","name":"hola","count":1,"permalink":"/SOCANVIS/blog/tags/hola"}')}}]);
