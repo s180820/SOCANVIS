@@ -10,14 +10,14 @@ const katex = require('rehype-katex');
 const config = {
   title: 'Fastfood and health in the united states',
   tagline: 'Social data and visualization final exam project',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://s180820.github.io',
+  baseUrl: '/SOCANVIS/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'https://github.com/s180820/SOCANVIS', // Usually your GitHub org/user name.
+  organizationName: 's180820', // Usually your GitHub org/user name.
   projectName: 'SOCANVIS', // Usually your repo name.
-
+  trailingSlash: false,
   presets: [
     [
       'classic',
