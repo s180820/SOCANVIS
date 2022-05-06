@@ -2,33 +2,33 @@
 sidebar_position: 3
 ---
 
-# Create a Blog Post
+# Exploring premature life loss
 
-Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
+First lets find the top 10 states and corresponding counties with the most premature deaths
 
-## Create your first Post
+| State 	| County  	| Premature deaths 	|
+|---	|---	|---	|
+| South Dakota 	| Oglala Lakota 	| 348.0 	|
+| South Dakota 	| Corson 	| 106.0 	|
+| South Dakota 	| Buffalo 	| 46.0 	|
+| South Dakota 	| Dewey 	| 121.0 	|
+| Montana 	| Big Horn 	| 293.0 	|
+| Montana 	| Roosevelt 	| 251.0 	|
+| South Dakota 	| Mellette 	| 56.0 	|
+| Virginia 	| Covington City 	| 156.0 	|
+| Alaska 	| Kusilvak 	| 137.0 	|
+| North Dakota 	| Sioux 	| 95.0 	|
 
-Create a file at `blog/2021-02-28-greetings.md`:
 
-```md title="blog/2021-02-28-greetings.md"
----
-slug: greetings
-title: Greetings!
-authors:
-  - name: Joel Marcey
-    title: Co-creator of Docusaurus 1
-    url: https://github.com/JoelMarcey
-    image_url: https://github.com/JoelMarcey.png
-  - name: Sébastien Lorber
-    title: Docusaurus maintainer
-    url: https://sebastienlorber.com
-    image_url: https://github.com/slorber.png
-tags: [greetings]
----
+A clear pattern occours states who are on the list are likely to be on their multiple times, with *South Dakota* coming in as a vast majority. 
+But first lets explore what premature death actually is.
 
-Congratulations, you have made your first post!
+## What is premature deaths? 
 
-Feel free to play around and edit this post as much you like.
-```
+Premature death is a measure of years of potential life lost due to a death occouring before the age of 75. The main factors contributing to early life loss are:
+* Cancer
+* Unintentional Injury
+* heart disease  
+* suicide
+* 
 
-A new blog post is now available at `http://localhost:3000/blog/greetings`.
